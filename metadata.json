@@ -1,0 +1,6 @@
+{
+  "name": "AI Task Organiser by Vansh Sharma",
+  "description": "A modern dark-themed task organiser dashboard with purple and blue accents, localStorage persistence, task statistics, and simulated demo AI suggestions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

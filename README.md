@@ -1,28 +1,44 @@
+# AI Task Organiser by Vansh Sharma
 
-# AI Task Organiser 🚀
+A lightweight, responsive dark-themed task organiser dashboard built with **React**, **TypeScript**, and **Tailwind CSS** featuring purple and blue accents, browser `localStorage` persistence, live task statistics, and a clearly labelled **Demo AI Suggestions** panel.
 
-My first beginner-friendly technology project.
+No paid APIs, subscriptions, or external databases are required.
 
-## Goal
-Build a simple application that helps organise daily tasks.
+## Features
 
-## Planned Features
-- Add and manage tasks
-- Set task priorities
-- Organise tasks by category
-- Explore AI-powered task suggestions
-- Add automation in future versions
+- **Add Tasks**: Create tasks with a title, optional description, priority (`High`, `Medium`, `Low`), and deadline date.
+- **Manage Tasks**: Mark tasks as completed or pending, edit task details inline, search, sort by newest/priority/deadline, and delete tasks (with undo support).
+- **Filter Views**: Filter tasks by **All**, **Pending**, and **Completed** with live counts.
+- **Task Statistics**: View Total Tasks, Pending (with overdue/high-priority breakdown), Completed, and Completion Rate.
+- **Browser `localStorage` Persistence**: Tasks automatically save in your browser and persist across refreshes.
+- **JSON Backup**: Export your tasks as `.json` or import a saved backup anytime.
+- **Demo AI Suggestions**: Clearly labelled simulated offline AI panel that analyses your current deadlines and priorities locally.
 
-## Technologies
-- HTML
-- CSS
-- JavaScript
-- AI tools
+## Running Locally
 
-## Learning Journey
-This project is being developed as I learn web development, AI and automation.
+1. Install **Node.js** (v18 or newer).
+2. Install project dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open the local URL shown in your terminal (default: `http://localhost:3000`).
 
----
-Created by Vansh Sharma.
-# ai-task-organiser
-My beginner project exploring AI and productivity automation
+## Building & Exporting
+
+To generate a production static bundle in the `dist/` folder:
+
+```bash
+npm run build
+```
+
+You can preview the production build locally with:
+
+```bash
+npm run preview
+```
+
+Deploy the `dist/` directory to any static hosting service such as **Vercel**, **Netlify**, **Cloudflare Pages**, or **GitHub Pages**.
