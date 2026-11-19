@@ -18,7 +18,7 @@ export default async function handler(req: any, res: any) {
     const tasks = req.body?.tasks || [];
 
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+     model: 'gemini-3.8-flash',
       contents: `Act as an intelligent task organiser. Analyse these tasks and provide 3 practical suggestions to improve productivity. Tasks: ${JSON.stringify(tasks)}`
     });
 
