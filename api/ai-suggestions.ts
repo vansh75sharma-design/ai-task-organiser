@@ -32,7 +32,7 @@ export default async function handler(req: any, res: any) {
             temperature: 0.4
           }
         }),
-        signal: AbortSignal.timeout(20000)
+    signal: AbortSignal.timeout(45000)
       }
     );
 
